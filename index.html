@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Functions Results</title>
+</head>
+<body>
+    <h1>Function Results</h1>
+    <h3>Below are the results of the functions from <code>functions.js</code>:</h3>
+
+    <!-- Section to display function results -->   
+    <div id="results">
+        <script src="functions.js"></script>
+        <script>
+            // Display the results of the functions
+            document.write("<p>Result of calculateArea(10, 25): " + calculateArea(length, width) + "</p>"); //This display the result of the area of a recangle
+            document.write("<p>Result of reverseString(birthday): " + reverseString(inputString) + "</p>"); //This display the result of a function set to reverse a string
+            document.write("<p>Result of isEven(22): " + isEven(inputNum) + "</p>"); //This display the result from checking for an even number
+            document.write("<p>Result of scoreCategory(87): " + scoreCategory(score) + "</p>"); //This display the result of score categories
+         
+          </script> <!--All the results above will display the corresponding results from the examples we used on our javaScript file, based on the data input-->
+    </div>
+</body>
+</html>
