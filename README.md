@@ -37,30 +37,38 @@ Run the file using Node.js:
 1. Rectangle Area Calculator
 
 let length = 10;
+
 let width = 25;
+
 let areaOfRectangle = calculateArea(length, width);
+
 console.log(areaOfRectangle); // Output: 250
 
 2. String Reverser
 
 let inputString = "birthday";
+
 console.log(reverseString("birthday")); // Output: yadhtrib
 
 3. Even Number Checker
 
 let inputNum = 22;
+
 let sampleNum = isEven(inputNum);
+
 console.log(sampleNum); // Output: true
 
 4. Score Categorizer
 
 let score = 87;
+
 let stdScore = scoreCategory(score);
+
 console.log(stdScore); // Output: 87 (Very Good)
 
 ---
 
-## Section that shows the results of running different test cases.
+# Section that shows the results of running different test cases.
 
 | Function Name             | Input                   | Expected Result      | Result               |
 |---------------------------|-------------------------|----------------------|----------------------|
