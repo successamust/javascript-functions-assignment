@@ -1,5 +1,5 @@
-# javascript-functions-assignment
-**Description**
+## javascript-functions-assignment
+# Description 
 This assignment demonstrates the implementation of four JavaScript functions:
 
 Rectangle Area Calculator: Calculates the area of a rectangle.
@@ -10,14 +10,17 @@ Even Number Checker: Checks if a number is even.
 
 Score Categorizer: Categorizes a score based on predefined ranges.
 
-**Instructions to Run the Code**
-*Prerequisites:*
+---
+
+# Instructions to Run the Code**
+
+**Prerequisites:**
 
 Ensure you have Node.js installed on your machine.
 
 A code editor like Visual Studio Code is recommended.
 
-*Steps:*
+**Steps:**
 
 Clone or download the repository containing the JavaScript file.
 
@@ -27,7 +30,9 @@ Navigate to the directory where the JavaScript file is located.
 
 Run the file using Node.js:
 
-**Examples of how to use functions**
+---
+
+# Examples of how to use functions
 
 1. Rectangle Area Calculator
 
@@ -52,6 +57,8 @@ console.log(sampleNum); // Output: true
 let score = 87;
 let stdScore = scoreCategory(score);
 console.log(stdScore); // Output: 87 (Very Good)
+
+---
 
 ## Section that shows the results of running different test cases.
 
